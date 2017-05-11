@@ -1,21 +1,14 @@
 html {
   font-family: Helvetica;
   text-align: center;
+  font-weight: bold;
 }
 
-/* This works, but it uses the link not the file
 .building {
   color: white;
-  font-weight: bold;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  background-size: cover;
-} */
-
-.building {
-  color: white;
-  font-weight: bold;
   background-image: url(/Users/whipxach/Desktop/CodingProjects/18Broadway/resources/images/the-flatiron-building.png);
   background-size: cover;
+  background-repeat:no-repeat;
 }
 
 h1 {
@@ -24,22 +17,27 @@ h1 {
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
 p {
   font-size: 14px;
+  font-weight: normal;
 }
 
-#background {
+#footer {
+  text-align: left;
+  color: white;
   background-color: Dimgrey;
 }
 
 #copyright {
   font-size: 11px;
+}
+
+a:visited {
+    color: white;
 }
