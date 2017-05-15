@@ -6,7 +6,7 @@ html {
 
 .building {
   color: white;
-  background-image: url(/Users/whipxach/Desktop/CodingProjects/18Broadway/resources/images/the-flatiron-building.png);
+  background-image: url(Broadway/resources/images/the-flatiron-building.png);
   background-size: cover;
   background-repeat:no-repeat;
 }
